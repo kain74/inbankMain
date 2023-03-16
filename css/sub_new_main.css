@@ -1,0 +1,1072 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: inherit;
+    color: inherit;
+    font-family: '맑은고딕', 'malgun gothic', 'Dotum', 'Arial', 'Helvetica', 'sans-serif';
+}
+#container div{
+    box-sizing:border-box;
+}
+.gnb_wrap{
+    color:222;
+    background:#fff;
+}
+.personal .gnb_area>ul>li>a{
+    padding:0;
+    margin:0 21px;
+    line-height:1;
+    padding-bottom:26px;
+}
+
+.personal .gnb_area li:first-child a{margin-left:0;}
+.personal .gnb_area li a:hover, .personal.gnb_area li a.selected{
+    background:transparent;
+}
+.personal .gnb_area li a:hover:after{
+    display:inline-block;
+    width:100%;
+    height:3px;
+    background:#347dd5;
+    left:0;
+    bottom:0;
+    margin-left:0;
+    
+}
+.personal .gnb_area li a{
+    position:relative;
+    color:#222;
+}
+
+
+.bg_sub_wrap{
+    border:1px solid #347dd5;
+    background: #fff;
+    box-shadow:0 -4px 4px rgba(75, 75, 75, 0.1)
+}
+#header .utill_wrap .utill_area .logo{
+    vertical-align: middle;
+}
+#header .utill_wrap .utill_area .personal_area{
+    margin-top:6px;
+}
+#header .utill_wrap .utill_area .personal_area h2{
+    margin-bottom: 1px;
+    line-height: 1;
+    padding-left: 0;
+    padding-top: 0;
+    vertical-align: middle;
+}
+#header .utill_wrap .utill_area .personal_area .cert_btn{
+    top:0;
+    vertical-align: middle;
+}
+.cert_btn a ~ a{
+    margin-left:1px;
+}
+.cert_btn .btn_login_02{
+    display:inline-block;
+    width:60px;height:27px;
+    font-size:14px;
+    font-weight:bold;
+    color:#387dbf;
+    text-align:center;
+    line-height:25px;
+    box-sizing:border-box;
+    border:1px solid #387dbf;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+}
+.cert_btn .btn_logout_02{
+    display:inline-block;
+    width:60px;height:27px;
+    font-size:14px;
+    font-weight:bold;
+    color:#555;
+    text-align:center;
+    line-height:25px;
+    box-sizing:border-box;
+    border:1px solid #333;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+}
+.cert_btn .btn_cert_center_02{
+    display:inline-block;
+    width:60px;height:27px;
+    font-size:14px;
+    font-weight:bold;
+    color:#387dbf;
+    text-align:center;
+    line-height:25px;
+    box-sizing:border-box;
+    border:1px solid #387dbf;
+    border-radius: 3px;
+    -webkit-border-radius:3px;
+}
+
+
+
+/* 메인비쥬얼 */
+.re-mainVisual2020-group{position:relative;overflow:hidden;}
+.re-mainVisual2020{
+    position:relative;
+    overflow:hidden;
+    max-width:100%;
+    height:550px;
+    border-bottom:1px solid #e1e1e1;
+}
+.re-mainVisual2020 .swiper-slide .swiper-slide-inner {width: 546px; }
+.re-mainVisual2020 .swiper-slide.swiper-slide-next .swiper-slide-inner,
+.re-mainVisual2020 .swiper-slide.swiper-slide-active .swiper-slide-inner,
+.re-mainVisual2020 .swiper-slide.swiper-slide-prev .swiper-slide-inner { width: 546px; display:flex; justify-content: center;}
+.re-mainVisual2020 a:hover{
+    text-decoration:none;
+}
+.re-mainVisual2020 .re-mainVisual2020-inner{
+    position:relative;
+    max-width:980px;
+    margin:0 auto;
+}
+.re-mainVisual2020 .swiper-container{
+    overflow:visible;
+    height:550px;
+    padding-top:0px;
+    padding-bottom:104px;
+}
+.re-mainVisual2020 .flag{
+    display:none;
+    background-color:#f38d69;
+    font-size:1.4rem;
+    color:#fff;
+    line-height:32px;
+    font-weight:900;
+    opacity:0;
+    transform:translateX(70px);
+    -webkit-transform:translateX(70px);
+    -moz-transform:translateX(70px);
+    -ms-transform:translateX(70px);
+    -o-transform:translateX(70px);
+    transition:opacity 0.3s, transform 0.5s;
+    -webkit-transition:opacity 0.3s, transform 0.5s;
+    -moz-transition:opacity 0.3s, transform 0.5s;
+    -ms-transition:opacity 0.3s, transform 0.5s;
+    -o-transition:opacity 0.3s, transform 0.5s;
+}
+
+.re-mainVisual2020 .re-mainVisual2020-tit{
+    opacity:1;
+    font-size:24px;
+    line-height:1.4;
+    letter-spacing:-1px;
+    transition:0.5s;
+}
+.re-mainVisual2020 .re-mainVisual2020-tit2{
+    display:block;
+    margin-top: 14px;
+    color: #333;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -3px;
+    opacity:0;
+    transition-delay: 0s;
+    transition:0s;
+    -webkit-transition:0s;
+}
+.re-mainVisual2020 .re-mainVisual2020-tit em{
+    font-style:normal;
+    font-weight:normal;
+}
+.re-mainVisual2020 .re-mainVisual2020-desc{
+    opacity:0;
+    overflow:hidden;
+    color:#666;
+    font-size:16px;
+    line-height:1.3;
+    margin-top:12px;
+    letter-spacing:-2px;
+    transition:0s;
+    -webkit-transition:0s;
+    -moz-transition:0s;
+    -ms-transition:0s;
+    -o-transition:0s;
+}
+.re-mainVisual2020 .re-mainVisual2020-desc.ft24{
+    margin-top:20px;
+    color:#555;
+    font-size:20px;
+    line-height:1.2;
+}
+.re-mainVisual2020 .re-mainVisual2020-desc span{
+    display:-webkit-box;
+    overflow:hidden;
+    color:#666;
+    word-break:keep-all;
+    text-overflow:ellipsis;
+    -webkit-line-clamp:7;
+    -webkit-box-orient:vertical;
+    word-break:keep-all;
+    -webkit-line-clamp:5;
+}
+.re-mainVisual2020 .re-mainVisual2020-desc span em{
+    display:inline-block;
+    letter-spacing: 0;
+}/* 20201224 : 신규추가 */
+.re-mainVisual2020 .img img{width:100%}
+.re-mainVisual2020 .btn-area{
+    display:none;
+    position:absolute;
+    bottom:70px;left:40px;
+}
+.re-mainVisual2020 .btn-area .btn-go-to-page{
+    position:relative;
+    font-size:18px;
+    line-height:28px;
+    color:#333;
+    font-weight:600;
+    letter-spacing:-2px;
+}
+.re-mainVisual2020 .btn-area .btn-go-to-page ~ .btn-go-to-page{margin-left:40px;}
+.re-mainVisual2020 .btn-area .btn-go-to-page::before{
+    content:"";
+    display:inline-block;
+    width:18px;height:1px;
+    position:absolute;right:-22px;bottom:11px;
+    background-color:#333;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+.re-mainVisual2020 .btn-area .btn-go-to-page::after{
+    content:"";
+    display:inline-block;
+    width:8px;height:1px;
+    position:absolute;right:-22px;bottom:11px;
+    background-color:#333;
+    transform-origin: 100% 50%;
+    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+.re-mainVisual2020 .swiper-slide[class^="item"] .product-wrap{
+    background:rgba(255,255,255,0.3) no-repeat 50% 50%;
+}
+.re-mainVisual2020  .swiper-slide-active.swiper-slide.item01 .flag{
+    background:#3fb8c7;
+}
+.re-mainVisual2020  .swiper-slide-active.swiper-slide.item02 .flag{
+    background:#3fb8c7;
+}
+.re-mainVisual2020  .swiper-slide-active.swiper-slide.item03 .flag{
+    background:#f38d69;
+}
+.re-mainVisual2020  .swiper-slide-active.swiper-slide.item04 .flag{
+    background:#7495e8;
+}
+.re-mainVisual2020  .swiper-slide-active.swiper-slide.item05 .flag{
+    background:#3fb8c7;
+}/* 20201224 : 추가 */
+.re-mainVisual2020  .swiper-slide-active.swiper-slide.item06 .flag{
+    background:#3fb8c7;
+}/* 20201224 : 추가 */
+
+
+.re-mainVisual2020  .swiper-slide-active.swiper-slide.item01 .product-wrap{
+    background-image:url(https://suhyup-bank.com/images/sub_new_main/main_visualBg-re-01.png);
+}
+.re-mainVisual2020  .swiper-slide-active.swiper-slide.item04 .product-wrap{
+    background-image:url(https://suhyup-bank.com/images/sub_new_main/main_visualBg-re-04.png);
+}
+
+.re-mainVisual2020 .swiper-slide-active .re-mainVisual2020-desc{
+    opacity:1;
+    transition:0.7s;
+    -webkit-transition:0.7s;
+}
+.re-mainVisual2020 .swiper-slide-active .flag{
+    display:inline-block;
+    width:60px;
+    padding:12px 0;
+    font-size:16px;
+    font-weight:bold;
+    line-height:1;
+    letter-spacing: -1px;
+    text-align:center;
+    opacity:1;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    transform:translateX(0);
+    -webkit-transform:translateX(0);
+    -moz-transform:translateX(0);
+    -ms-transform:translateX(0);
+    -o-transform:translateX(0);
+}
+.re-mainVisual2020 .pagination-wrap{
+    position:relative;
+    bottom:33px;
+    height:10px;
+    transform:translateY(-30px);
+    -webkit-transform:translateY(-30px);
+    -moz-transform:translateY(-30px);
+    -ms-transform:translateY(-30px);
+    -o-transform:translateY(-30px);
+    z-index:10;
+}
+.re-mainVisual2020 .swiper-pagination{
+    position:relative;
+    display:inline-block;
+    height:10px;
+    text-align:left;
+}
+.re-mainVisual2020 .swiper-pagination-bullet{
+    position:relative;
+    width:20px;height:10px;
+    margin:0 5px;
+    background-color:transparent;
+    outline:none;
+    opacity:1;
+    transition:width 0.5s;
+    -webkit-transition:width 0.5s;
+    -moz-transition:width 0.5s;
+    -ms-transition:width 0.5s;
+    -o-transition:width 0.5s;
+}
+.re-mainVisual2020 .swiper-pagination-bullet::before{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:10px;
+    height:10px;
+    margin:-5px 0 0 -5px;
+    opacity:1;
+    background-color:#fff;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.re-mainVisual2020 .swiper-pagination-bullet:first-child{
+    margin-left:0;
+}
+.re-mainVisual2020 .swiper-pagination-bullet-active{
+    top:0;
+    width:28px;
+    height:9px;
+    background:transparent;
+    box-sizing:border-box;
+    border:2px solid #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.re-mainVisual2020 .swiper-pagination-bullet-active::before{
+    content:none
+}
+
+.btn-stop-play{
+    position:relative;
+   
+    height: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.btn-stop-play [class^='btn']{
+    
+    position:absolute;
+    width:10px;height:10px;
+    border:0;
+    vertical-align:middle;
+}
+.btn-stop-play .btn-stop{
+    background:url(https://suhyup-bank.com/images/sub_new_main/btn_stop.png) no-repeat 50% 50%;
+}
+.btn-stop-play .btn-play{
+    display:none;
+    background:url(https://suhyup-bank.com/images/sub_new_main/btn_play.png) no-repeat 50% 50%;
+}
+
+/* off */
+.re-mainVisual2020 .is-off .flag,
+.re-mainVisual2020 .is-off .img{display:none;transition:opacity 0.4s}
+
+.re-mainVisual2020 .swiper-slide{display:flex;align-items:flex-end;width:auto !important}
+.re-mainVisual2020 .product-wrap{
+    position:relative;
+    width:320px;
+    height:148px;
+    margin:0;
+    padding:30px;
+    background:rgba(255,255,255,0.3);
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.24);
+    transition:all 0.5s, transform 1s, height 0.5s;
+    -webkit-transition:all 0.5s, transform 1s, height 0.5s;
+    -moz-transition:all 0.5s, transform 1s, height 0.5s;
+    -ms-transition:all 0.5s, transform 1s, height 0.5s;
+    -o-transition:all 0.5s, transform 1s, height 0.5s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.re-mainVisual2020 .product-wrap .product-inner {
+    height: 100%;
+    overflow: hidden;
+}
+/* active */
+.re-mainVisual2020 .swiper-slide-active{
+    z-index:10;
+}
+
+.re-mainVisual2020 .swiper-slide-active .product-wrap{
+    width:540px;
+    height:360px;
+    padding:40px;
+    background:rgba(255,255,255, 1);
+    transform:translateY(0);
+    -moz-transform:translateY(0);
+    -ms-transform:translateY(0);
+    -o-transform:translateY(0);
+    -webkit-transform:translateY(0);
+}
+.re-mainVisual2020 .swiper-slide-active .re-mainVisual2020-tit{
+    /* margin-top:14px;
+    color:#333;
+    font-size:36px;
+    line-height:1.2;
+    letter-spacing:-3px; */
+    display:none;
+    opacity:0;
+    transition:0s;
+    -webkit-transition:0s;
+}
+.re-mainVisual2020 .swiper-slide-active .re-mainVisual2020-tit2{
+    transition:0.7s;
+    -webkit-transition:0.7s;
+    opacity:1;
+}
+.re-mainVisual2020 .swiper-slide-active .re-mainVisual2020-tit em{
+    font-weight:bold;
+}
+.re-mainVisual2020 .swiper-slide-active .re-mainVisual2020-tit .col-red{
+    color:#d31d1d;
+}
+
+.re-mainVisual2020 .swiper-slide-active .btn-area{display:block;}
+.re-mainVisual2020 .swiper-slide-active .btn-area .btn-go-to-page{display:inline-block;opacity:1;pointer-events:auto}
+.re-mainVisual2020 .swiper-slide-active .btn-area .btn-go-to-page:hover::before{
+    right:-25px;
+}
+.re-mainVisual2020 .swiper-slide-active .btn-area .btn-go-to-page:hover::after{
+    right:-25px;
+}
+.re-mainVisual2020 .swiper-slide-active .img{
+    width:450px; height:296px; 
+    opacity:1;
+    transform:translateX(0);
+    -webkit-transform:translateX(0);
+    -moz-transform:translateX(0);
+    -ms-transform:translateX(0);
+    -o-transform:translateX(0);
+}
+.re-mainVisual2020 .swiper-button-next, .re-mainVisual2020 .swiper-button-prev{
+    position: absolute;
+    top: 50%;
+    width: 23px;
+    height: 43px;
+    margin-top: -21px;
+    z-index: 10;
+    cursor: pointer;
+    background-position: center;
+    background-size: 23px 43px;
+}
+.re-mainVisual2020 .swiper-button-prev,
+.re-mainVisual2020 .swiper-container-rtl .swiper-button-next {
+    border:0;
+    background-color:transparent;
+    background-image: url(https://suhyup-bank.com/images/sub_new_main/btn_banner_left.png);
+    left: -40px;
+    right: auto;
+}
+.re-mainVisual2020 .swiper-button-next,
+.re-mainVisual2020 .swiper-container-rtl .swiper-button-prev {
+    border:0;
+    background-color:transparent;
+    background-image: url(https://suhyup-bank.com/images/sub_new_main/btn_banner_right.png);
+    right: -40px;
+    left: auto;
+}
+
+/* swiper-pagination */
+.re-mainVisual2020 .swiper-pagination:before{
+    right:0;left:0
+}
+.re-mainVisual2020 .img{
+    position:absolute;
+    right:-77px;
+    bottom:-47px;
+    opacity:0;
+    transition: opacity 0.5s,transform 1s;
+    -webkit-transition: opacity 0.5s,transform 1s;
+    -moz-transition: opacity 0.5s,transform 1s;
+    -ms-transition: opacity 0.5s,transform 1s;
+    -o-transition: opacity 0.5s,transform 1s;
+    transform:translateX(70px);
+    -webkit-transform:translateX(70px);
+    -moz-transform:translateX(70px);
+    -ms-transform:translateX(70px);
+    -o-transform:translateX(70px);
+}
+/* 상품 이미지크기 조정 */
+.re-mainVisual2020 .item01 .img{
+    width:336px;height:268px;
+    right:-66px;bottom:-10px;
+}
+.re-mainVisual2020 .item02 .img{
+    width:333px;height:301px;
+    right:-70px;bottom:0;
+}
+.re-mainVisual2020 .item03 .img{
+    width:427px;height:273px;
+    right:-70px;bottom:-20px;
+}
+.re-mainVisual2020 .item04 .img{
+    width:253px;height:172px;
+    right:-70px;bottom:50px;
+}
+/* 20201224 : 추가 */
+.re-mainVisual2020 .item05 .img{
+    width:282px;height:268px;
+    right:-50px;bottom:30px;
+}
+.re-mainVisual2020 .item06 .img{
+    width:244px;height:240px;
+    right:-29px;bottom:0;
+}
+
+
+.re-mainVisual2020 .inquiry-area{
+    max-width:980px;padding:0
+}
+.re-mainVisual2020 .inquiry-area-inner{
+    align-items:center
+}
+.re-mainVisual2020 .inquiry-area-inner .btn-inquiry{
+    width:190px
+}
+.re-mainVisual2020-rt-area{
+    position:absolute;
+    left:50%;top:84px;
+    width:300px;height:auto;
+    margin-left:190px;
+    text-align:right;
+    padding-top:20px;
+    z-index:2;
+}
+.re-mainVisual2020-rt-area .swiper-container{
+    position:relative;
+    overflow:visible;
+}
+.re-mainVisual2020-rt-area .swiper-pagination{
+    display:inline-block;
+    width:auto;
+    position:absolute;
+    right:21px;top:-20px;
+    left:inherit;
+    bottom:inherit;
+    font-size:14px;
+    color:#fff;
+    letter-spacing:-1px;
+    text-shadow:1px 1px 3px rgba(0,0,0,0.5);
+}
+.re-mainVisual2020-rt-area .swiper-container-fade .swiper-slide{
+    opacity:0 !important;
+}
+.re-mainVisual2020-rt-area .swiper-container-fade .swiper-slide.swiper-slide-active{
+    opacity:1 !important;
+}
+.re-mainVisual2020-rt-area .swiper-button-prev,
+.re-mainVisual2020-rt-area .swiper-button-next{
+    width:10px;height:20px;
+    background-size: 10px 20px;
+}
+.re-mainVisual2020-rt-area .swiper-button-prev, .re-mainVisual2020-rt-area .swiper-container-rtl .swiper-button-prev{
+    border:0;
+    top:0 !important;
+    left:auto;right:55px;
+    background:url(https://suhyup-bank.com/images/sub_new_main/btn_banner_left.png) no-repeat 50% 50% / 50% 50%;
+}
+.re-mainVisual2020-rt-area .swiper-button-next, .re-mainVisual2020-rt-area .swiper-container-rtl .swiper-button-next{
+    border:0;
+    top:0 !important;
+    right:0;
+    background:url(https://suhyup-bank.com/images/sub_new_main/btn_banner_right.png) no-repeat 50% 50% / 50% 50%;
+}
+.re-mainVisual2020-rt-area .total-num{
+    font-size:14px;
+    line-height:1;
+    color:#fff;
+    text-shadow:1px 1px 3px rgba(0,0,0,0.5);
+}
+.re-mainVisual2020-rt-area [class^='text'] .p01{
+    margin-top:6px;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    line-height:1;
+    text-shadow:1px 1px 3px rgba(0,0,0,0.5);
+}
+.re-mainVisual2020-rt-area [class^='text'] .p02{
+    margin-top:6px;
+    font-size:15px;
+    color:#fff;
+    line-height:1;
+    text-shadow:1px 1px 3px rgba(0,0,0,0.5);
+}
+.re-mainVisual2020-rt-area [class^='text'] a{
+    display:inline-block;
+    width:70px;
+    height:32px;
+    margin-top:15px;
+    color:#666;
+    font-size:13px;
+    font-weight:bold;
+    line-height:30px;
+    text-align:center;
+    letter-spacing:-1px;
+    background:#fff;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+.re-mainVisual2020-rt-area [class^='text'] a:hover{
+    text-decoration:none;
+}
+.re-mainVisual2020-rt-area [class^='text'] ~ [class^='text']{
+    display:none;
+}
+.re-mainVisual2020 .bg-area{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    /* opacity: 0; */
+    z-index:-1;
+    
+}
+.re-mainVisual2020 .bg-area [class^="bg"] {
+    position:absolute;
+    left:0;top:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    z-index:0;
+    transition: opacity 1s 1s;
+    -webkit-transition: opacity 1s 1s;
+    -moz-transition: opacity 1s 1s;
+    -ms-transition: opacity 1s 1s;
+    -o-transition: opacity 1s 1s;
+    
+}
+.re-mainVisual2020 .bg-area [class^="bg"].on{
+    opacity:1;
+    z-indeX:1;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+
+.re-mainVisual2020 .bg-area .bg01{
+    background: rgb(154,219,240); /* Old browsers */
+    background: -moz-linear-gradient(140deg,  rgba(154,219,240,1) 1%, rgba(157,184,239,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(140deg,  rgba(154,219,240,1) 1%,rgba(157,184,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(140deg,  rgba(154,219,240,1) 1%,rgba(157,184,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9adbf0', endColorstr='#9db8ef',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.re-mainVisual2020 .bg-area .bg02{
+    background: rgb(172,243,214); /* Old browsers */
+    background: -moz-linear-gradient(140deg, rgba(172,243,214,1) 1%, rgba(154,219,240,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(140deg, rgba(172,243,214,1) 1%,rgba(154,219,240,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(140deg, rgba(172,243,214,1) 1%,rgba(154,219,240,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#acf3d6', endColorstr='#9adbf0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.re-mainVisual2020 .bg-area .bg03{
+    background: rgb(246,201,159); /* Old browsers */
+    background: -moz-linear-gradient(-36deg,  rgba(246,201,159,1) 1%, rgba(242,189,189,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-36deg,  rgba(246,201,159,1) 1%,rgba(242,189,189,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(140deg,  rgba(246,201,159,1) 1%,rgba(242,189,189,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6c99f', endColorstr='#f2bdbd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.re-mainVisual2020 .bg-area .bg04{
+    background: rgb(116,184,232); /* Old browsers */
+    background: -moz-linear-gradient(140deg,  rgba(116,184,232,1) 1%, rgba(111,229,240,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(140deg,  rgba(116,184,232,1) 1%,rgba(111,229,240,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(140deg,  rgba(116,184,232,1) 1%,rgba(111,229,240,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b8e8', endColorstr='#6fe5f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* main-icon-area */
+.main-icon-area{
+    /* font-family: 'NotoKrR','sans-serif'; */
+    box-shadow: 0 3px 8px rgba(0,0,0.12);
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+.main-icon-area .main-icon-inner{
+    width:1026px;
+    margin:0 auto;
+    padding:20px 10px;
+}
+.main-icon-area .main-icon-inner:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.main-icon-area .main-icon-inner [class^="icon"]{
+    position:relative;
+    display:inline-block;
+    width:120px;height:114px;
+    font-size:16px;
+    letter-spacing: -1px;
+}
+.main-icon-area .main-icon-inner [class^="icon"] em{
+    display:block;
+}
+.main-icon-area .main-icon-inner a {
+    color:#222;
+    text-align:center;
+    text-decoration:none;
+}
+.main-icon-area .main-icon-inner a:hover{
+    color:#222;
+}
+.main-icon-area .main-icon-inner .list-item{float:left;width:50%;text-align:center;}
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(1) { width: 100%; }
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(2),
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(2) ~ .list-item { width: 50%; }
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(3),
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(3) ~ .list-item { width: 33.33%; }
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(4),
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(4) ~ .list-item { width: 25%; }
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(5),
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(5) ~ .list-item { width: 20%; }
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(6),
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(6) ~ .list-item { width: 16.66666%; }
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(7),
+.main-icon-area .main-icon-inner .list-item:first-child:nth-last-child(7) ~ .list-item { width: 14.28571428571429%; }
+.main-icon-area .main-icon-inner [class^="icon"]:before{
+    content:'';
+    display:inline-block;;
+    width:60px;height:60px;
+    padding:10px;
+    background: no-repeat 50% 50%;
+}
+.main-icon-area .main-icon-inner .icon01:before{
+    background-image : url(https://suhyup-bank.com/images/sub_new_main/main_icon01.png);
+}
+.main-icon-area .main-icon-inner .icon02:before{
+    background-image : url(https://suhyup-bank.com/images/sub_new_main/main_icon02.png);
+}
+.main-icon-area .main-icon-inner .icon03:before{
+    background-image : url(https://suhyup-bank.com/images/sub_new_main/main_icon03.png);
+}
+.main-icon-area .main-icon-inner .icon04:before{
+    background-image : url(https://suhyup-bank.com/images/sub_new_main/main_icon04.png);
+}
+.main-icon-area .main-icon-inner .icon05:before{
+    background-image : url(https://suhyup-bank.com/images/sub_new_main/main_icon05.png);
+}
+.main-icon-area .main-icon-inner .icon06:before{
+    background-image : url(https://suhyup-bank.com/images/sub_new_main/main_icon06.png);
+}
+.main-icon-area .main-icon-inner .icon07:before{
+    background-image : url(../images/sub_new_main/main_icon07.png);
+}
+
+
+/* notic-event */
+.notice-event-area h2{
+    font-size:24px;
+    line-height:1;
+    font-weight:bold;
+    letter-spacing:-1px;
+}
+.notice-event-area .list-item-area{
+    margin-top:40px;
+}
+.notice-event-area .list-item-area .list-item{
+    font-size:16px;
+    color:#222;
+    line-height:1;
+    letter-spacing:-1px;
+}
+.notice-event-area .list-item-area .list-item:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.notice-event-area .list-item-area .list-item ~ .list-item{
+    margin-top:10px;
+}
+.notice-event-area .list-item-area .list-item .text{
+    position:relative;
+    width:74%;
+    float:left;
+    box-sizing:border-box;
+}
+.notice-event-area .list-item-area .list-item a{
+    display:inline-block;
+    max-width:240px;
+    color:#222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom:1px;
+}
+.notice-event-area .list-item-area .list-item .icon-new{
+    display:inline-block;
+    width:36px;height:20px;
+    margin-left:5px;
+    border:1px solid #ee719a;
+    color:#ee719a;
+    font-size:12px;
+    text-align:center;
+    line-height:1.4;
+    vertical-align: top;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.notice-event-area .list-item-area .list-item a:hover{
+    color:#222;
+    text-decoration: underline !important;
+}
+.notice-event-area .list-item-area .list-item .date{
+    width:26%;
+    float:right;
+    text-align:right;
+}
+.notice-event-area .notice-event-inner{
+    width:980px;
+    margin:0 auto;
+}
+.notice-event-area .notice-event-inner:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.notice-event-area .notice-box{
+    position:relative;
+    float:left;
+    width:50%;
+    padding:60px 50px;
+}
+.notice-event-area .event-box{
+    position:relative;
+    float:left;
+    width:50%;
+    padding:60px 50px;
+}
+
+.notice-event-area  .btn-plus{
+    position:absolute;
+    top:65px;
+    right:50px;
+    font-size:16px;
+    color:#666;
+}
+
+.notice-event-area .btn-plus{
+    font-size:16px;
+    color:#666;
+}
+.notice-event-area .btn-plus:hover{
+    text-decoration:none;
+}
+
+.notice-event-area .btn-plus:after{
+    content:"+";
+    display:inline-block;
+    width:12px;
+    height:12px;
+    margin-left:4px;
+    line-height:9px;
+    text-align:center;
+    vertical-align: middle;
+}
+.notice-event-area .btn-plus span{
+    display:inline-block;
+    line-height:1;
+    vertical-align: middle;
+}
+
+
+/* 하단배너 */
+.main-bot-banner-area{
+    height:220px;
+    background:#f6f6f6;
+}
+.main-bot-banner-area .swiper-container{
+    width:980px;
+    margin:0 auto;
+}
+.main-bot-banner-area .swiper-slide{
+    position:relative;
+    padding:50px 144px;
+    box-sizing:border-box;
+}
+.main-bot-banner-area .icon01{
+    float:left;
+    display:block;
+    width:108px;
+    height:108px;
+    margin-right:44px;
+    box-sizing:border-box;
+    background:url(https://suhyup-bank.com/images/sub_new_main/main_banner_icon01.png) no-repeat 50% 50%;
+    box-shadow:0 6px 6px rgba(90,90,91,0.15);
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
+.main-bot-banner-area .right-area{
+    float:left;
+}
+.main-bot-banner-area .right-area .img{
+    padding-top:7px;
+}
+.main-bot-banner-area:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.main-bot-banner-area .btn-area{
+    margin-top:26px;
+}
+.main-bot-banner-area .btn-area [class^="btn"]{
+    display:inline-block;
+    width:184px;height:42px;
+    border:1px solid #c8c8c8;
+    background:#f6f6f6 no-repeat 50% 50%; 
+}
+.main-bot-banner-area .btn-area .btn-googlePlay{
+    background-image : url(https://suhyup-bank.com/images/sub_new_main/btn_gp_text.png);
+}
+.main-bot-banner-area .btn-area .btn-appStore{
+    background-image : url(https://suhyup-bank.com/images/sub_new_main/btn_as_text.png);
+}
+.main-bot-banner-area .swiper-button-next, .main-bot-banner-area .swiper-container-rtl .swiper-button-prev{
+    position: absolute;
+    top: 50%;
+    width: 23px;
+    height: 43px;
+    margin-top: -21px;
+    z-index: 10;
+    cursor: pointer;
+    border:0;
+    background-color:transparent;
+    background-position: center;
+    background-size:23px 43px;
+}
+
+.main-bot-banner-area .swiper-button-prev,.main-bot-banner-area .swiper-container-rtl .swiper-button-next {
+    background-image: url(https://suhyup-bank.com/images/sub_new_main/btn_banner_left.png);
+    left: 0;
+    right: auto;
+    border:0;
+    background-color:transparent;
+    background-size:23px 43px;
+}
+
+.main-bot-banner-area .swiper-button-next,.main-bot-banner-area .swiper-container-rtl .swiper-button-prev {
+    background-image: url(https://suhyup-bank.com/images/sub_new_main/btn_banner_right.png);
+    right: 0;
+    left: auto;
+}
+
+.select-area{margin-top:40px;}
+.select-area .select-area-inner{width:980px;margin:0 auto;}
+.select-area .select-area-inner select{
+    width:214px;height:34px;
+    font-size:14px;
+    padding-left:11px;
+    color:#333;
+    font-family: '맑은고딕', 'malgun gothic', 'Dotum', 'Arial', 'Helvetica', 'sans-serif';
+    background:url(https://suhyup-bank.com/images/sub_new_main/main_sel_arrow01.png) no-repeat right 11px center;
+    border:1px solid #c7c7c7;
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {
+    display: none;            /* 화살표 없애기 for IE10, 11*/
+}
+.select-area .select-area-inner select ~ select{
+    margin-left:3px;
+}
+.main-bot-banner-area .btn-area .btn-googlePlay {
+    background-image: url(https://suhyup-bank.com/images/sub_new_main/btn_gp_text.png);
+}
+
+/* footer 예외처리 */
+.footer_new_wrap{padding-bottom:60px;}
+.footer_new_wrap.mgt0{margin-top:0;}
+
+
+.personal .gnb_area li li{width:180px}
+
+/* 20210209 : 수정 */
+.notice-event-area .list-item-area .list-item .icon-new{ /* 870번째 ~ 886줄 수정 */
+    display:inline-block;
+    width:36px;height:20px;
+    margin-left:5px;
+    border:1px solid #ee719a;
+    color:#ee719a;
+    font-size:12px;
+    text-align:center;
+    line-height:1.6;
+    vertical-align: 4px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+@media screen and (min-width:0\0){
+    .personal .gnb_area>ul>li>a{padding-bottom:30px;}
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .personal .gnb_area>ul>li>a{padding-bottom:30px}
+}
